@@ -9,7 +9,7 @@ public class MeinFenster extends JPanel implements KeyListener {
     private static final long serialVersionUID = 1L;
 
     // Spieler
-    int x = 200, y = 200, a = 200, b = 155;
+    int x = 200, y = 200;
     int speed = 20;
 
     // Ziel-Objekt
@@ -118,28 +118,28 @@ public class MeinFenster extends JPanel implements KeyListener {
         
             case KeyEvent.VK_UP    -> {            	
             	if(y > borderUp) {
-            		y -= speed; b -= speed; charStance = charRunUp; 	//run
+            		y -= speed; charStance = charRunUp; 	//run
             	}
             	up = true; down = false; left = false; right = false;	//direction
             }
             
             case KeyEvent.VK_DOWN  -> {
             	if(y < borderDown) {
-            		y += speed; b += speed; charStance = charRunDown; 	//run
+            		y += speed; charStance = charRunDown; 	//run
             	}
             	up = false; down = true; left = false; right = false;	//direction
             }
             
             case KeyEvent.VK_LEFT  -> {
             	if(x > borderLeft) {
-            		x -= speed; a -= speed; charStance = charRunLeft; 	//run
+            		x -= speed; charStance = charRunLeft; 	//run
             	}
             	up = false; down = false; left = true; right = false;	//direction
             }
             
             case KeyEvent.VK_RIGHT -> {
             	if(x < borderRight) {
-            		x += speed; a += speed; charStance = charRunRight; 	//run
+            		x += speed; charStance = charRunRight; 	//run
             	}
             	up = false; down = false; left = false; right = true;	//direction
             }
