@@ -40,16 +40,16 @@ public class MeinFenster extends JPanel implements KeyListener {
     Image charIdleUp = gifIdleUp.getImage();
     
     //LilGentleman Run Right Animation
-    ImageIcon gifRunRight = new ImageIcon("Assets/PackageM/Walk_Right.gif");  // ← dein Dateiname
+    ImageIcon gifRunRight = new ImageIcon("Assets/PackageM/walk_Right.gif");  // ← dein Dateiname
     Image charRunRight = gifRunRight.getImage();
     //LilGentleman RunLeft Animation
-    ImageIcon gifRunLeft = new ImageIcon("Assets/PackageM/Walk_Left.gif");  // ← dein Dateiname
+    ImageIcon gifRunLeft = new ImageIcon("Assets/PackageM/walk_Left.gif");  // ← dein Dateiname
     Image charRunLeft = gifRunLeft.getImage();
     //LilGentleman Run Animation
-    ImageIcon gifRunDown = new ImageIcon("Assets/PackageM/Walk_Front.gif");  // ← dein Dateiname
+    ImageIcon gifRunDown = new ImageIcon("Assets/PackageM/walk_Front.gif");  // ← dein Dateiname
     Image charRunDown = gifRunDown.getImage();
     //LilGentleman Run Animation
-    ImageIcon gifRunUp = new ImageIcon("Assets/PackageM/Walk_Behind.gif");  // ← dein Dateiname
+    ImageIcon gifRunUp = new ImageIcon("Assets/PackageM/walk_Behind.gif");  // ← dein Dateiname
     Image charRunUp = gifRunUp.getImage();
     
     int playerWidth = 400, playerHeight = 400;
