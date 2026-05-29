@@ -23,33 +23,33 @@ public class MeinFenster extends JPanel implements KeyListener {
     /*Player Direction*/
     boolean up, down, left, right;
     //LilGentleman Stance
-    ImageIcon gifStance = new ImageIcon("Assets/Monster_Pack_Free_Character_2/Idle_Front.gif");  // ← dein Dateiname
+    ImageIcon gifStance = new ImageIcon("Assets/PackageM/Idle_Front.gif");  // ← dein Dateiname
     Image charStance = gifStance.getImage();
     
     //LilGentleman Idle Animation
-    ImageIcon gifIdleRight = new ImageIcon("Assets/Monster_Pack_Free_Character_2/Idle_Right.gif");  // ← dein Dateiname
+    ImageIcon gifIdleRight = new ImageIcon("Assets/PackageM/Idle_Right.gif");  // ← dein Dateiname
     Image charIdleRight = gifIdleRight.getImage();
     //LilGentleman Idle Animation
-    ImageIcon gifIdleLeft = new ImageIcon("Assets/Monster_Pack_Free_Character_2/Idle_Left.gif");  // ← dein Dateiname
+    ImageIcon gifIdleLeft = new ImageIcon("Assets/PackageM/Idle_Left.gif");  // ← dein Dateiname
     Image charIdleLeft = gifIdleLeft.getImage();
     //LilGentleman Idle Animation
-    ImageIcon gifIdleDown = new ImageIcon("Assets/Monster_Pack_Free_Character_2/Idle_Front.gif");  // ← dein Dateiname
+    ImageIcon gifIdleDown = new ImageIcon("Assets/PackageM/Idle_Front.gif");  // ← dein Dateiname
     Image charIdleDown = gifIdleDown.getImage();
     //LilGentleman Idle Animation
-    ImageIcon gifIdleUp = new ImageIcon("Assets/Monster_Pack_Free_Character_2/Idle_Behind.gif");  // ← dein Dateiname
+    ImageIcon gifIdleUp = new ImageIcon("Assets/PackageM/Idle_Behind.gif");  // ← dein Dateiname
     Image charIdleUp = gifIdleUp.getImage();
     
     //LilGentleman Run Right Animation
-    ImageIcon gifRunRight = new ImageIcon("Assets/Monster_Pack_Free_Character_2/Walk_Right.gif");  // ← dein Dateiname
+    ImageIcon gifRunRight = new ImageIcon("Assets/PackageM/Walk_Right.gif");  // ← dein Dateiname
     Image charRunRight = gifRunRight.getImage();
     //LilGentleman RunLeft Animation
-    ImageIcon gifRunLeft = new ImageIcon("Assets/Monster_Pack_Free_Character_2/Walk_Left.gif");  // ← dein Dateiname
+    ImageIcon gifRunLeft = new ImageIcon("Assets/PackageM/Walk_Left.gif");  // ← dein Dateiname
     Image charRunLeft = gifRunLeft.getImage();
     //LilGentleman Run Animation
-    ImageIcon gifRunDown = new ImageIcon("Assets/Monster_Pack_Free_Character_2/Walk_Front.gif");  // ← dein Dateiname
+    ImageIcon gifRunDown = new ImageIcon("Assets/PackageM/Walk_Front.gif");  // ← dein Dateiname
     Image charRunDown = gifRunDown.getImage();
     //LilGentleman Run Animation
-    ImageIcon gifRunUp = new ImageIcon("Assets/Monster_Pack_Free_Character_2/Walk_Behind.gif");  // ← dein Dateiname
+    ImageIcon gifRunUp = new ImageIcon("Assets/PackageM/Walk_Behind.gif");  // ← dein Dateiname
     Image charRunUp = gifRunUp.getImage();
     
     int playerWidth = 400, playerHeight = 400;
